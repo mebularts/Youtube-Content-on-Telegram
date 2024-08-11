@@ -47,7 +47,10 @@ Projenizi başlatmak için gerekli kütüphaneleri yüklemek için aşağıdaki 
 
 3. `main.py` dosyasındaki `TOKEN`, `CHAT_ID`, `YOUTUBE_API_KEY` ve `CHANNELS_URL` değişkenlerini kendi bilgilerinizle güncelleyin.
 
-4. Uygulamayı başlatın:
+4. `kanallar.json` dosyanızı örnekteki gibi kanalların ID'leri ile güncelleyin.
+(Kanal ID'lerini bilmiyorsanız şu linkten bulabilirsiniz: https://threadsup.net/youtube-channel-id )
+
+6. Uygulamayı başlatın:
 
    ```bash
    python main.py
@@ -60,4 +63,3 @@ Projenizi başlatmak için gerekli kütüphaneleri yüklemek için aşağıdaki 
 ## Lisans
 
 Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
-```
