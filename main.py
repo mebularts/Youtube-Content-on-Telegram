@@ -107,6 +107,7 @@ def check_channels_and_send_videos():
         for video_id, title, tags, url in video_urls:
             download_and_send_video(video_id, title, tags, url)
 
+# Burada kanalların kontrolünü kaç saate bir yapılacağını yazın (6)
 schedule.every(6).hours.do(check_channels_and_send_videos)
 
 check_channels_and_send_videos()
