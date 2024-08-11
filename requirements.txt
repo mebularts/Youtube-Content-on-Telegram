@@ -1,0 +1,5 @@
+pytube
+pyTelegramBotAPI
+requests
+schedule
+google-api-python-client
