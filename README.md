@@ -1,6 +1,3 @@
-### `README.md`
-
-```markdown
 # YouTube Content on Telegram
 
 Bu proje, belirttiğiniz YouTube kanallarından videoları alarak Telegram kanalınıza göndermenizi sağlar. YouTube API'sinden video bilgilerini çeker, videoları indirir ve Telegram botu aracılığıyla gönderir.
